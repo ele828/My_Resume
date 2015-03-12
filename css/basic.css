@@ -1,0 +1,590 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-weight: normal;
+  margin: auto;
+  padding: 0;
+  white-space:nowrap;
+}
+
+  a {
+    text-decoration: none;
+    color: #348edc;
+    margin-left: 10px;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #348edc;
+  }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+  text-shadow: #fff 0 2px 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fefefe;
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  text-align: center;
+  z-index:1000;
+}
+
+  .header .nav {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    line-height: 80px;
+  }
+
+.name {
+  color: #173753;
+  position: absolute;
+  left:0;
+  font-size: 38px;
+}
+
+.fe {
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: "STKaiti", "Kaiti";
+  color: #a6a6a6;
+}
+
+.contact {
+  position: absolute;
+  right:0;
+  top:0;
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  height:80px;
+}
+
+  .contact li {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: text-bottom;
+    bottom: 0;
+    float: left;
+    overflow: hidden;
+  }
+
+  .contact li span {
+    position: relative;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    font-family: "Helvetica Neue";
+    color: #767676;
+  }
+
+  .contact img {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 30px;
+  }
+
+.container {
+  width: 100%;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.tech {
+  text-align:center;
+  margin:0 auto;
+}
+
+.lang {
+  margin-top: 0px;
+  height:auto;
+  width: 70%;
+  display:inline-block;
+}
+
+.progress-bar {
+  height: 50px;
+  background: blue;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius:10px;
+}
+
+  .progress-bar .percent {
+    border-bottom: 1px solid #ccc;
+    border-radius:5px;
+    height:50px;
+    line-height: 50px;
+    color: green;
+    width:100%;
+    background: #ccc;
+    padding-left: 30px;
+    margin-left: 5px;
+  }
+
+.profile {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  padding-top:30px;
+  padding-bottom: 40px;
+}
+
+  .profile span {
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .profile .content h1 {
+  }
+
+  .profile .content h2 {
+    margin-top: -20px;
+  }
+
+  .p-left {
+    display: inline-block;
+    width:50%;
+    border-right: dotted 3px #ccc;
+  }
+
+    .p-left-c {
+      width:70%;
+      float:right;
+      text-align: left;
+    }
+
+  .p-right {
+    display: inline-block;
+    width: 49%;
+  }
+
+    .p-right-c {
+      padding-left: 90px;
+      width:70%;
+      float:left;
+      text-align: left;
+    }
+
+.exp {
+  margin-top: 30px;
+  padding-top: 30px;
+  height:auto;
+  width: 70%;
+  display:inline-block;
+}
+
+  .exp h2 {
+    margin-top: -20px;
+  }
+
+  .exp .block {
+    height: 200px;
+    border-left: 10px solid #ccc;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+    .exp .block p {
+      font-size: 18px;
+      text-indent: 30px;
+      white-space: normal;
+      line-height: 30px;
+    }
+
+    .exp .block p img {
+      margin-right: 20px;
+      width: 160px;
+      float: left;
+    }
+
+  .exp .dot {
+    position: relative;
+    left: -48px;
+    top: 25px;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    background: #5ac64f;
+  }
+
+.skill {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  padding-top:30px;
+  padding-bottom: 40px;
+}
+
+  .skill h2 {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+  }
+
+  .skill ul {
+    text-align: left;
+    font-size: 20px;
+    height:auto;
+    width: 70%;
+    display:inline-block;
+  }
+
+  .skill ul li {
+    margin-top: 20px;
+  }
+
+.project {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  padding-top:30px;
+  padding-bottom: 40px;
+  background: #f5f5f5;
+}
+
+  .project h2 {
+    margin-top: -20px;
+  }
+
+  .project .pro {
+    text-align: left;
+    width: 70%;
+    display:inline-block;
+  }
+
+  .project .content {
+    width: 70%;
+    display: inline-block;
+  }
+
+  .pro-left {
+    display: inline-block;
+    width:70%;
+    border-right: dotted 1px #ccc;
+    text-align: left;
+    white-space: normal;
+    line-height: 30px;
+    padding-right: 20px;
+  }
+
+  .pro-right {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+  }
+
+  .pro-right img {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-bottom: -20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .pro-title {
+    font-size: 30px;
+    font-family: "STKaiti", "Kaiti";
+  }
+
+  .pro-time {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #8c8c8c;
+  }
+
+  .item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #ccc;
+    text-align: left;
+  }
+
+.tag {
+  margin-right: 15px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 10px;
+  background: #5ac64f;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.prize {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-top:30px;
+  padding-bottom: 40px;
+}
+
+  .prize .arc ul {
+    text-align: left;
+    line-height: 40px;
+    font-size: 25px;
+    height:auto;
+    width: 70%;
+    display:inline-block;
+  }
+
+  .prize h2 {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+  }
+
+.footer {
+  height: 100px;
+  padding-top: 0px;
+  text-align: center;
+  background: #f5f5f5;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+  .footer a {
+    text-decoration: none;
+    color: #348edc;
+    margin-left: 10px;
+  }
+
+  .footer a:visited {
+    text-decoration: none;
+    color: #348edc;
+  }
+
+  .footer section {
+    left: 25%;
+    margin:0 auto;
+    text-align: center;
+    width: 70%;
+    display:inline-block;
+  }
+
+  .footer .contact {
+    display: none;
+  }
+
+/*Color*/
+.green {
+  background: #41c27e;
+}
+
+.red {
+  background: #d30202;
+}
+
+.orange {
+  background: #ff9f00;
+}
+
+.blue {
+  background: #348edc;
+}
+
+.pink {
+  background: #ff7777;
+}
+
+.light-blue {
+  background: #7a9ad4;
+}
+
+/*Color*/
+
+@media (max-width: 800px) {
+  body {
+    white-space: normal;
+  }
+
+    .header {
+      height: 50px;
+      line-height: 50px;
+      padding-top: -30px;
+    }
+
+    .header .nav .contact {
+      display: none;
+    }
+
+    .header .name {
+      font-size: 30px;
+      margin-top: -17px;
+    }
+
+    .header .fe {
+      font-size: 20px;
+    }
+
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .progress-bar {
+    height: 30px;
+    border-radius: 5px;
+  }
+
+    .progress-bar .percent {
+      line-height: 30px;
+      height: 30px;
+      padding-left: 10px;
+      font-size: 15px;
+    }
+
+  .p-left {
+    display: inline-block;
+    width:100%;
+    /*background: blue;*/
+    border-right: none;
+  }
+
+    .p-left-c {
+      width:70%;
+      float:right;
+      text-align: left;
+      font-size: 10px;
+    }
+
+  .p-right {
+    display: inline-block;
+    width: 100%;
+    /*background: red;*/
+  }
+
+    .p-right-c {
+      padding-left: 90px;
+      padding-left: 30%;
+      width:70%;
+      /*float:left;*/
+      text-align: left;
+      /*text-align: center;*/
+    }
+
+  .profile span {
+    line-height: 40px;
+    font-size: 15px;
+  }
+
+  .skill ul {
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+
+  .pro-title {
+    font-size: 20px;
+  }
+
+  .pro-time {
+    font-size: 10px;
+    padding-left: 20px;
+    color: #8c8c8c;
+  }
+
+  .pro-detail {
+    font-size: 13px;
+  }
+
+  .pro-left {
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    white-space: normal;
+    line-height: 30px;
+    padding-right: 20px;
+    border:none;
+  }
+
+  .pro-right {
+    margin-top: 20px;
+    display: block;
+    width: 20%;
+    text-align: right;
+  }
+
+  .tag {
+    margin-right: 5px;
+  }
+
+  .prize .arc ul {
+    font-size: 15px;
+  }
+
+  .exp .block p img {
+      margin-right: 20px;
+      width: 80px;
+      float: left;
+  }
+
+  .exp .block p {
+      font-size: 12px;
+      text-indent: 5px;
+      white-space: normal;
+      line-height: 25px;
+    }
+
+  .exp .block {
+    font-size: 20px;
+    height: 240px;
+  }
+
+  .footer {
+    font-size: 15px;
+    white-space: nowrap;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer .contact {
+    padding-left: 15%;
+    text-align: center;
+    display: block;
+    position: relative;
+    height: 30px;
+    margin-top: -10px;
+  }
+
+}
